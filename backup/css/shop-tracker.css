@@ -1,0 +1,59 @@
+body {
+  padding-top: 54px;
+  height:100%
+}
+
+.top-five {
+    text-align: center;
+    display:inline; 
+}
+
+.top-five ul { 
+    list-style-position: inside;
+}
+
+.company {
+    width: 20%;
+    display:inline-block;
+    margin-right: -4px;
+    box-sizing: border-box;
+    padding: 1%;
+    text-align:center;
+}
+
+.top-five-by-company {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom:25px;
+}
+
+.top-five-by-company li {
+    list-style-position: inside;
+    
+}
+
+.best-reviewed{
+    text-align: center;
+    display:inline; 
+    
+}
+
+.best-reviewed ul { 
+    list-style-position: inside;
+}
+
+.best-reviewed-by-company{
+        margin-top: 50px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.best-reviewed-by-company li {
+    list-style-position:inside;
+}
+
+.line{
+     border-top:1px solid black;
+     width:100%;
+     margin-bottom: 25px;
+}

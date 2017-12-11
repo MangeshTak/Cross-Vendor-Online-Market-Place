@@ -1,0 +1,9 @@
+
+# HTID:3469230: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+DirectoryIndex /public/index.php
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:3469230:
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
